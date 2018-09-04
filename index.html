@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>CphContent</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+        }
+
+        .content-wrapper {
+
+            display: grid;
+        }
+
+        .content-wrapper img {
+            width: 100%;
+
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 8vw;
+        }
+
+        p {
+            text-align: center;
+            font-size: 4vw;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 6vw;
+        }
+
+        @media screen and (min-width:600px) {
+            .content-wrapper {
+                padding-left: 30%;
+                padding-right: 30%;
+                padding-top: 1%;
+                grid-gap: 5px;
+                grid-template-columns: repeat(1, 1fr);
+
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 2.5em;
+            }
+
+            p {
+                text-align: center;
+                font-size: 1.5em;
+            }
+
+            h2 {
+                text-align: center;
+                font-size: 2em;
+            }
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            margin-left: 3%;
+            width: 100%;
+            height: 5%;
+            /* Height of the footer */
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="content-wrapper">
+        <img src="CphContent_logo-kopi.png" alt="CphContent logo">
+    </section>
+
+
+    <h1>Velkommen til CphContent</h1>
+    <h2>Siden opdateres...</h2>
+    <p>Vi arbejder på højtryk for at få siden op at stå.</p>
+
+
+
+
+    <footer>Kontakt os på: <a href="mailto:info@cphcontent.dk" target="_top">info@cphcontent.dk</a></footer>
+</body>
+</html>
